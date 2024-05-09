@@ -6,7 +6,9 @@ stuff to remember
 dataList = ["Me", "Myself", "I"]
 
 # tuple
+# however we cannot modify this
 dataTuple = ("Me", "Myself", "I")
+dataTupleInt = ("1", "2", "3")
 
 # dict
 dataDict = {
@@ -18,6 +20,9 @@ dataDict = {
 dataList.append("Someone")
 
 # example
+print("List: ", dataList)
+
+# or
 for x in dataList:
     print(x)
 
@@ -34,3 +39,10 @@ print("\nDictionary: ")
 for k, v in dataDict.items(): 
     print(f"\nKey: " + k.title())
     print(f"Value: " + v.title())
+
+# tuple example
+print("\nTuple: ", dataTuple)
+
+# or 
+for x in dataTuple:
+    print(x)
